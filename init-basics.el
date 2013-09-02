@@ -27,4 +27,14 @@
 (setq inhibit-startup-message t) ;no splash screen
 (setq default-tab-width 4)
 
+(add-to-list 'load-path "~/.emacs.d/site-lisp/highlight-parentheses")
+(require 'highlight-parentheses)
+(define-globalized-minor-mode global-highlight-parentheses-mode
+  highlight-parentheses-mode
+  (lambda ()
+	(highlight-parentheses-mode t)))
+(global-highlight-parentheses-mode t)
+(show-paren-mode t)
+(setq show-paren-style 'parenthesis)
+
 (provide 'init-basics)
