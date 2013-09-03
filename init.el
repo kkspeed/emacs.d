@@ -18,6 +18,9 @@
 (require 'init-comint)
 (require 'init-auto-complete)
 
+(require 'init-cc-mode)
+(require 'init-eclim)
+
 (require 'init-haskell-mode)
 
 (require 'init-lisp)
