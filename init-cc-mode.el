@@ -1,3 +1,6 @@
+(setq c-default-style "linux"
+      c-basic-offset 4)
+
 (require 'semantic)
 (require 'semantic/ia)
 
