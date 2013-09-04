@@ -15,4 +15,12 @@
 (require 'saveplace)
 (setq-default save-place t)
 
+(add-to-list 'load-path "~/.emacs.d/site-lisp/undo-tree")
+(require 'undo-tree)
+(global-undo-tree-mode)
+
+(add-to-list 'load-path "~/.emacs.d/site-lisp/browse-kill-ring")
+(require 'browse-kill-ring)
+(global-set-key "\C-cy" 'browse-kill-ring)
+
 (provide 'init-basic-editing)

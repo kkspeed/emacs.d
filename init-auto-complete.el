@@ -11,4 +11,5 @@
 (define-key ac-menu-map "\C-n" 'ac-next)
 (define-key ac-menu-map "\C-p" 'ac-previous)
 
+(add-to-list 'load-path "~/.emacs.d/ac-sources")
 (provide 'init-auto-complete)

@@ -6,4 +6,8 @@
 (require 'elscreen-buffer-list)
 (global-set-key (kbd "<f9>") 'elscreen-create)
 (global-set-key (kbd "S-<f9>") 'elscreen-kill)
+
+(setq elscreen-display-tab nil)
+(setq elscreen-tab-display-control nil)
+
 (provide 'init-elscreen)

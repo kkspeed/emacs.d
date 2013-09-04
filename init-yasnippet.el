@@ -10,4 +10,6 @@
       '(yas/dropdown-prompt
         yas/ido-prompt))
 
+(defalias 'yas/current-snippet-table 'yas--get-snippet-tables)
+
 (provide 'init-yasnippet)

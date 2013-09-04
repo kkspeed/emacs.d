@@ -178,5 +178,10 @@ static char * arrow_right[] = {
 (set-face-attribute 'mode-line-80col-face nil
     :inherit 'mode-line-position-face
     :foreground "black" :background "#eab700")
+(custom-set-faces
+ '(mode-line ((t (:inherit nil :stipple nil :background "black"
+                  :foreground "#bbbbbc"
+                  :background "#222222"
+                  :inverse-video nil :box nil)))))
 
 (provide 'modeline-tweak)
