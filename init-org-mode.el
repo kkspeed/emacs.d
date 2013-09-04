@@ -11,4 +11,7 @@
 			 '((emacs-lisp . t) (lisp . t) (gnuplot . t) (octave . t)))
             (setq org-src-fontify-natively t)))
 
+(require 'org-table)
+(define-key orgtbl-mode-map (kbd "C-c t") 'orgtbl-insert-radio-table)
+
 (provide 'init-org-mode)
