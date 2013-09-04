@@ -17,6 +17,7 @@
 (require 'init-paredit)
 (require 'init-comint)
 (require 'init-auto-complete)
+(require 'init-yasnippet)
 
 (require 'init-cc-mode)
 (require 'init-eclim)
