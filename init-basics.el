@@ -35,6 +35,9 @@
 	(highlight-parentheses-mode t)))
 (global-highlight-parentheses-mode t)
 (show-paren-mode t)
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 (setq show-paren-style 'parenthesis)
 
 (provide 'init-basics)
