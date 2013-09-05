@@ -23,4 +23,8 @@
 (require 'browse-kill-ring)
 (global-set-key "\C-cy" 'browse-kill-ring)
 
+(add-to-list 'load-path "~/.emacs.d/site-lisp/auto-highlight-symbol")
+(require 'auto-highlight-symbol)
+(global-auto-highlight-symbol-mode t)
+
 (provide 'init-basic-editing)
